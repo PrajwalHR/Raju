@@ -1,0 +1,315 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7c5ca8;
+
+  /* Because we want header to be sticky later */
+  height: 5.0rem;
+  padding: 0 4.8rem;
+  border-radius: 10px;
+  /* border-color: #333; */
+  margin-bottom: 10px;
+}
+.name {
+margin-bottom: 30px;
+}
+.logo{
+  width: 50px;
+  height: 40px;
+  /* background-color: #b2b2b2;
+  color: #b2b2b2; */
+  border-radius: 10px;
+  margin-top: 20px;
+
+
+}
+
+a{
+text-decoration: none;
+color: #020202;
+}
+.main-logo {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size:x-large;
+padding-left: 10px;
+padding-right: 10px;
+/* padding-bottom: 20px; */
+}
+
+p{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: x-large;
+
+}
+.main-nav-list {
+list-style: none;
+display: flex;
+align-items: center;
+gap: 1.5rem;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+/* font-style: normal; */
+/* font-size: smaller; */
+}
+
+.main-nav-link {
+font-size: 10px;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+display: inline-block;
+text-decoration: none;
+color: #333;
+font-weight: 500;
+font-size: 1.8rem;
+transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+color: #000000;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+padding: 1.2rem 2.4rem;
+border-radius: 9px;
+color: #fff;
+background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+background-color: #cf711f;
+}
+
+
+/* -------------------
+main
+--------------------- */
+#TechnicalSkills {
+  height: 62.0rem;
+  /* padding: 0 3.0rem; */
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #ba97ec;
+  /* max-width: 1800px; */
+}
+.title-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size:large;
+
+}
+
+.quick-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content:left ;
+  
+  }
+  h1 {
+  margin-left: 10px;
+  color: white;
+  padding: 0 3.0rem;
+  }
+/* ----
+Audit & Assurance
+---- */
+.quick-divs-1 p{
+  color: #000000;
+  font-size: 20px;
+  }
+.quick-divs-1 {
+  font-family: "Kanit", sans-serif;
+  height: 90px;
+  width: 300px;
+  background-color: #7c5ca8;
+  color: #333;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  text-wrap:wrap;
+    
+  }
+#services :hover{
+  transform: scale(1.02);
+  cursor: pointer;
+  
+  }
+#services {
+  padding: 0 3.0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:left ;
+ 
+}
+
+.img-quick-dives {
+    margin-top: 10px;
+  }
+/* ----
+Taxation Services
+---- */
+  #services-2 :hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    
+    }
+  #services-2 {
+    padding: 0 3.0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:left ;
+  }
+.quick-divs-2 p{
+    color: #000000;
+    font-size: 20px;
+    }
+.quick-divs-2 {
+  font-family: "Kanit", sans-serif;
+  height: 90px;
+  width: 250px;
+  background-color: #7c5ca8;
+  color: #333;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  text-wrap:wrap;
+    }
+/* ----
+Corporate Outsourcing Services
+---- */
+
+#services-3 :hover{
+  transform: scale(1.02);
+  cursor: pointer;
+  
+  }
+#services-3 {
+  padding: 0 3.0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:left ;
+}
+.quick-divs-3 p{
+  color: #000000;
+  font-size: 20px;
+  }
+.quick-divs-3 {
+font-family: "Kanit", sans-serif;
+height: 90px;
+width: 250px;
+background-color: #7c5ca8;
+color: #333;
+border-radius: 30px;
+text-align: center;
+margin: 10px;
+text-wrap:wrap;
+  }
+.quick-divs-3-1{
+  font-family: "Kanit", sans-serif;
+height: 90px;
+width: 450px;
+background-color: #7c5ca8;
+color: #333;
+border-radius: 30px;
+text-align: center;
+margin: 10px;
+text-wrap:wrap;
+}
+.quick-divs-3-1 p{
+  color: #000000;
+  font-size: 20px;
+  }
+/* ----
+Corporate Law Compliances
+---- */
+
+
+  #services-4 :hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    
+    }
+  #services-4 {
+    padding: 0 3.0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:left ;
+  }
+.quick-divs-4 p{
+    color: #000000;
+    font-size: 20px;
+    }
+.quick-divs-4 {
+  font-family: "Kanit", sans-serif;
+  height: 90px;
+  width: 450px;
+  background-color: #7c5ca8;
+  color: #333;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  text-wrap:wrap;
+    }
+/* ----
+Real Estate Consultancy
+---- */
+
+
+#services-5 :hover{
+  transform: scale(1.02);
+  cursor: pointer;
+  
+  }
+#services-5 {
+  padding: 0 3.0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:left ;
+}
+.quick-divs-5 p{
+  color: #000000;
+  font-size: 20px;
+  }
+.quick-divs-5 {
+font-family: "Kanit", sans-serif;
+height: 90px;
+width: 350px;
+background-color: #7c5ca8;
+color: #333;
+border-radius: 30px;
+text-align: center;
+margin: 10px;
+text-wrap:wrap;
+  }
+
+.quick-divs-5-1 p{
+    color: #000000;
+    font-size: 20px;
+    }
+.quick-divs-5-1 {
+  font-family: "Kanit", sans-serif;
+  height: 120px;
+  width: 550px;
+  background-color: #7c5ca8;
+  color: #333;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  text-wrap:wrap;
+    }
+
+h2 {
+  text-decoration:underline;
+  padding: 0 3.0rem;
+}
